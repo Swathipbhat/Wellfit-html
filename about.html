@@ -173,6 +173,13 @@ font-size: 30px;
     height: 5cm;
 }
 .fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+
     font-size: 20px;
     padding: 20px;
     font-weight: 100;
@@ -181,6 +188,9 @@ font-size: 30px;
     text-decoration: none;
     margin: 5px 2px;
     color: red;
+}
+.fa-facebook-f:before, .fa-facebook:before {
+    content: "\f09a";
 }
 
 .title ul {
@@ -481,7 +491,7 @@ document.getElementById("demo").innerHTML = "THANK YOU FOR YOUR RESPONSE!!!";
         </div>
             <a class="fa fa-facebook" href="https://www.fb.com"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             <a class="fa fa-instagram" href="https://www.instagram.com"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <a class="fa fa-linkedin" href="https://www.linkedin.com"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a class="fa fa-linkedin" href="https://www.linkedin.com">&nbsp;</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         
     </div>
 </body>
