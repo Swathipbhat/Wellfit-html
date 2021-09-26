@@ -10,7 +10,8 @@ In this project, I learnt how to build a website for a gym management system. Th
  * Price details
  * Franchise
 
-![homepage](https://user-images.githubusercontent.com/86972129/134812830-fbe556f2-ec52-479f-b0f6-340c6d971d8f.jpg)
-![aboutus](https://user-images.githubusercontent.com/86972129/134812468-eead49c2-3fe2-4648-8431-9bbaa5b519a2.jpg)
-![Timetable](https://user-images.githubusercontent.com/86972129/134812487-bfc23d04-cc69-4433-b1a2-73fffb8e3aa2.jpg)
+![homepage](https://user-images.githubusercontent.com/86972129/134812951-cfbf629c-7119-4990-afe1-4b5c2b78f65e.jpg)
 
+![aboutus](https://user-images.githubusercontent.com/86972129/134812926-e404a9c2-390c-450e-96c9-c7053300e3c0.jpg)
+
+![Timetable](https://user-images.githubusercontent.com/86972129/134812953-25b1f521-abdb-4aa1-a730-519ea5715a20.jpg)
