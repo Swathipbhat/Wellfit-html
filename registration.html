@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="shortcut icon" type="image/x-icon" href="dumbbell (2).ico" />
+    <link rel="stylesheet" href="css\main_index.css">
+    <link rel="stylesheet" href="css\animated.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>WellFit</title>
+    <style>
+        @media (max-width:530px) {
+            .tryusfacilities li {
+                line-height: 1;
+                margin-bottom: 10px;
+            }
+        }
+        
+        .tryusfacilities li amp-img {
+            margin-right: 0;
+            margin-bottom: 5px;
+            float: none;
+            width: 50px;
+        }
+        
+        .tryusfacilities li {
+            display: inline-block;
+            margin-bottom: 10px;
+            padding-right: 0;
+            text-align: left;
+            vertical-align: top;
+            width: 49%;
+            line-height: 2.9rem;
+            font-size: 18px;
+        }
+        
+        .tryusfacilities li amp-img {
+            margin-right: 15px;
+            float: left;
+            width: 50px;
+        }
+        
+        ul li {
+            font-size: 15px;
+        }
+        
+        #form {
+            padding-left: 170px;
+            padding-left: 170px;
+            height: 612.3px;
+        }
+        
+        @media screen and (max-width:1000px) {
+            #form {
+                width: 100%;
+                padding-left: 10px;
+                padding-right: 10px;
+                display: inline;
+            }
+            #form2 {
+                display: none;
+            }
+        }
+    </style>
+</head>
+
+<body class="body">
+    <br>
+    <br>
+
+    <div style="text-align:center; ">
+        <div class="images1"><img src="images/club2.jpg " width="100% ">
+            <p>1/4</p>
+            <span class="image_intext1 ">GET UPTO 40% OFF ON ONLINE REGISTRATION</span>
+        </div>
+        <div class="images1 "><img src="images/club4.jpg " width="100% ">
+            <p>2/4</p>
+            <span class="image_intext1 ">OPEN NOW IN TAMIL NADU WITH EXCLUSIVE OFFERS</span>
+        </div>
+        <div class="images1 "><img src="images/club5.jpg " width="100% ">
+            <p>3/4</p>
+            <span class="image_intext1 ">FREE 20 DAY MEMBERSHIP TRIAL FOR IMMEDIATE REGISTRATIONS</span>
+        </div>
+
+
+        <br><br><br><br><br>
+        <br><br><br><br><br>
+        <br><br><br><br><br>
+        <div style="position: relative; ">
+            <div style="position: absolute; top:60%; left:50%; transform:translate(-50%, -50%); width:100%; height: 700px; background-image:radial-gradient(blue,red); padding:50px ">
+                <div class="form_division" id="form">
+                    <h1>Register Now!</h1>
+                    <form name="reg_form" onsubmit="return validateForm()" type="post" action="index.html">
+                        <label style="float: left; ">Name</label>
+                        <br>
+                        <input type="text " class="form_box " name="input_name">
+                        <br>
+                        <p style="float: right; font-size:11px;  color:red" class="alert_id"> </p>
+                        <br>
+                        <br>
+                        <label style="float: left; ">Emali</label>
+                        <br>
+                        <input type="email " class="form_box " name="email">
+                        <br>
+                        <p style="float: right; font-size:11px;  color:red" class="alert_id"> </p>
+                        <br>
+                        <br>
+                        <label style="float: left; ">Contact Number</label>
+                        <br>
+                        <input type="text" class="form_box" name="number">
+                        <br>
+                        <p style="float: right; font-size:11px;  color:red" class="alert_id"> </p>
+                        <br>
+                        <br>
+                        <label style="float: left; ">Select Club</label>
+                        <select id="cars" name="club" class="form_box">
+                            <option value="club1">Coimbatore/Club 1</option>
+                            <option value="club2">Salem/Club 2</option>
+                            <option value="club3">Chennai/Club 3</option>
+                        </select>
+                        <br>
+                        <p style="float: right; font-size:11px;  color:red" class="alert_id"> </p>
+                        <br>
+                        <br>
+                        <label style="float: left;"><input type="checkbox" name="checkbox" required> I have Agreed To Terms And Conditions</label>
+                        <p style="float: right; font-size:11px;  color:red" class="alert_id"> </p>
+                        <br>
+                        <br>
+                        <br>
+                        <input name="Submit" type="submit" class="form_box" style="background-color: red; color:white">
+                        <br>
+                        <a href="terms_and_conditions.html" style="text-decoration: none;">Terms And Conditions</a>
+                    </form>
+                </div>
+                <div class="form_division" id="form2">
+                    <h2 class="pb1 ">GYM FACILITIES</h2>
+                    <ul class="tryusfacilities p0 m0 pb2 ">
+                        <li style="font-size: 15px; ">
+                            <img src=" img/group-exercise.png " width="50 " height="50 " layout="responsive "> Group Exercise </li>
+                        <li style="font-size: 15px; ">
+                            <img src="img/gym-floor.png " width="50 " height="50 " layout="responsive "> Gym Floor </li>
+                        <li style="font-size: 15px; ">
+                            <img src="img/cardio-theatre.png " width="50 " height="50 " layout="responsive "> Cardio Area </li>
+                        <li style="font-size: 15px; ">
+                            <img src="img/spin.png " width="50 " height="50 " layout="responsive "> Cycle Studio </li>
+                        <li style="font-size: 15px; ">
+                            <img src="img/free-weights.png " width="50 " height="50 " layout="responsive "> Free Weights </li>
+                        <li style="font-size: 15px; ">
+                            <img src="img/freestyle.png " width="50 " height="50 " layout="responsive "> freestyle </li>
+                        <li style="font-size: 15px; ">
+                            <img src="img/wifi.png " width="50 " height="50 " layout="responsive "> Internet Station </li>
+                        <li style="font-size: 15px; ">
+                            <img src="img/monsoon-shower.png " width="50 " height="50 " layout="responsive "> Shower Area </li>
+                        <li style="font-size: 15px; ">
+                            <img src="img/steam-sauna.png " width="50 " height="50 " layout="responsive "> Steam Room </li>
+                        <li style="font-size: 15px; ">
+                            <img src="img/loaded-weights.png " width="50 " height="50 " layout="responsive "> Strength Area </li>
+                        <li style="font-size: 15px; ">
+                            <img src="img/pt.png " width="50 " height="50 " layout="responsive "> Personal Training </li>
+                        <li style="font-size: 15px; ">
+                            <img src="img/facilities.png " width="50 " height="50 " layout="responsive "> Towel Service </li>
+                        <li style="font-size: 15px; ">
+                            <img src="img/facilities.png " width="50 " height="50 " layout="responsive "> F&amp;B </li>
+                        <li style="font-size: 15px; ">
+                            <img src="img/lounge-area.png " width="50 " height="50 " layout="responsive "> Members Lounge </li>
+                        <li style="font-size: 15px; ">
+                            <img src="img/yoga.png " width="50 " height="50 " layout="responsive "> Yoga </li>
+                        <li style="font-size: 15px; ">
+                            <img src="img/facilities.png " width="50 " height="50 " layout="responsive "> Nutrition Counseling </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div style="height: 330px; "></div>
+        <div class="title ">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+          <li><a href="google_maps_api.html">Find Centers</a></li>
+          <li><a href="gym_table.html">Time Table</a></li>
+          <li><a href="membership.html">Membership</a></li>
+            </ul>
+        </div>
+
+        <br>
+        <div class="bottom">
+            <div class="bottom_content_wrap">
+                <div class="bottom_content">
+                    <h3>About Us</h3>
+                    <p><a href="about.html" style="color:white;">Get To Know About Us!</a></p>
+                    <p><a href="gym_about.html" style="color:white;">About WELLFIT Classes</a></p>
+                </div>
+    
+                <div class="bottom_content">
+                    <h3>Policies, Terms & Conditions</h3>
+                    <p><a href="webpage-policy.html" style="color:white;">WebPage Policy</a></p>
+                    <p><a href="terms_and_conditions.html" style="color:white;">Terms & Conditions</a></p>
+                    <p><a href="privacy-policy.html" style="color:white;">Privacy Policy</a></p>
+                </div>
+    
+                <div class="bottom_content">
+                    <h3>Customer Services</h3>
+                    <p><a href="faqs.html" style="color:white;">FAQs</a></p>
+                    <p><a href="final.html" style="color:white;">Own a Franchise</a></p>
+                </div>
+            </div>
+            <div class="icons">
+                <a class="fa fa-facebook" href="https://www.fb.com"></a>
+                <a class="fa fa-instagram" href="https://www.instagram.com"></a>
+                <a class="fa fa-linkedin" href="https://www.linkedin.com"></a>
+            </div>
+        </div>
+    
+        <script>
+            function validateForm() {
+                var check = 0
+                var x 
+                var y = document.getElementsByClassName("alert_id");
+                y[0].innerHTML = " ";
+                y[1].innerHTML = " ";
+                y[2].innerHTML = " ";
+                y[3].innerHTML = " ";
+                
+                x = document.forms["reg_form"]["input_name"].value;
+                if (x == "") {
+                    y[0].innerHTML = "Fill Name Field *";
+                    check ++
+                }
+                else{
+                    if(!isNaN(x) || x.length < 6){
+                        y[0].innerHTML = "Invalid Name *";
+                    check ++
+                    }
+                }
+
+                x = document.forms["reg_form"]["email"].value;
+                if (x == "") {
+                    y[1].innerHTML = "Fill Email Field *";
+                    check ++
+                }
+                else{
+                    if(!x.includes("@") || !x.includes(".com") || x.length<10){
+                        y[1].innerHTML = "Invalid email *";
+                    check ++
+                    }
+                }
+
+                x = document.forms["reg_form"]["number"].value;
+                if (x == "") {
+                    y[2].innerHTML = "Fill contact Field *";
+                    check ++
+                }
+                else{
+                    if(isNaN(x) || x.length!=10){
+                        y[2].innerHTML = "Invalid number *";
+                    check ++
+                    }
+                }
+                x = document.forms["reg_form"]["club"].value;
+                if (x == "") {
+                    y[3].innerHTML = "Select a Club *";
+                    check ++
+                }
+                if(check!=0)
+                return false
+
+                else{
+                    alert("Registration Complete!")
+                    return true
+                }
+
+            }
+        </script>
+
+        <script>
+            var image_count = 0;
+            setgallery(image_count);
+
+            function setgallery(n) {
+                var i;
+                var x = document.getElementsByClassName("images1 ");
+
+                if (image_count > x.length - 1) {
+                    image_count = 0;
+                }
+
+                if (image_count < 0) {
+                    image_count = x.length - 1;
+                }
+
+                for (i = 0; i < x.length; i++)
+                    x[i].style.display = "none ";
+
+                x[image_count].style.display = "block ";
+                image_count++;
+                setTimeout(setgallery, 3000);
+            }
+        </script>
+
+</body>
+
+</html>

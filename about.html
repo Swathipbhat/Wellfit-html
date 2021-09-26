@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html lang="en"> 
+  <head> 
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="shortcut icon" type="image/x-icon" href="dumbbell (2).ico" />
+    <meta charset="UTF-8">
+    <title>WellFit</title>
+<style>
+  #logo:hover{
+    background-color: transparent;
+  }
+  
+  *{
+       box-sizing: border-box;
+      
+      }
+    body {
+      font-family: 'Roboto Condensed', sans-serif;
+      left: 56%;
+      margin: 0;
+       
+    }
+    html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color:rgb(49, 43, 43);
+  color: white;
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.tit {
+  color:red;
+}
+.us {
+  overflow: hidden;
+  text-align: center;
+  font-size: 20px;
+  font: outline;
+  color: rgb(8, 8, 8);
+  background-color:rgb(34,34,34);
+        }
+
+
+           
+ .gal{
+text-align: center;
+font-size: 130%;
+font-weight: 300;
+font-style: oblique;
+font-size: 30px;
+   }
+.help{
+    font-size: 130%;
+    background-color:rgb(241, 246, 248);
+    font-size: 20px; 
+    padding: 14px 16px;
+    margin-top: 10px;
+     }
+   #box{
+     box-sizing: border-box;
+    font-size: 20px; 
+           }
+  .reaction-picker
+       {
+              
+     padding-top: 9px;
+     padding-bottom: 4px;
+    text-align: center;
+      padding: 12px;
+             }
+   .intercom-reaction {
+    padding-top: 9px;
+    padding-bottom: 4px;
+  text-align: center;
+    }
+      .reaction{
+    padding: 10px 20px;
+    border: 0;
+    background: rgb(167, 224, 235);
+    font-weight: bold;
+    cursor: pointer;
+    font-size: xx-large;
+     padding: 12px;
+     margin: 7px;
+    }
+    .reaction:hover {
+  -ms-transform: scale(1.5);
+  -webkit-transform: scale(1.5); 
+  transform: scale(1.5); 
+}
+     #demo{
+         padding-top: 9px;
+        padding-bottom: 4px;
+        text-align: center;
+        font-size: 130%;
+        color: red;
+             }  
+    .com{
+       
+  font-style: italic;
+  width: 990px;
+  height: 250px;
+  float: left;
+  border: 2px solid rgb(245, 215, 208);
+  background-color:rgb(250, 234, 242);
+  border-radius: 5px;
+  padding: 10px;
+  margin: 6px 10px;
+  margin-left: 64px;
+  margin-right: 4px;
+  
+    }
+    .com img{
+    margin-top: -19px;
+    border-radius: 70px;
+  }
+   
+       
+       
+.title{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    height: 47px;
+    background-color: rgb(34, 34, 34);
+  
+}
+.x{
+  height: 30cm;
+}
+.bottom{
+ 
+    background-color: rgb(34, 34, 34);
+  height: 7cm;
+  text-align: center;
+
+}
+
+.title ul {
+  float: left;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.title li {
+  float: left;
+}
+
+.title a, .dropbtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.title a:hover, .dropbtn:hover {
+  background-color: red;
+}
+
+.title li.dropdown {
+  display: inline-block;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1;}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+  animation-name: dropdown-animation;
+  animation-duration: 1s;
+  animation-iteration-count: 1;
+}
+
+@keyframes dropdown-animation{
+  0%{opacity: 0;}
+  100%{opacity: 1;}
+}
+
+.icons{
+  top:50%;
+  display: inline-block;
+  position: relative;
+  margin: 0 auto;
+  font-size: 20px;
+}
+
+.bottom_content{
+  float: left;
+  width: 33.33%;
+  display: block;
+  text-align: center;
+  color: rgb(255, 0, 0);
+}
+
+.bottom_content li{
+  list-style-type:none;
+  float:left;
+  position: relative;
+
+}
+.bottom_content a{
+text-decoration: none;
+}
+.bottom:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width: 600px) {
+ 
+    .column {
+    width: 100%;
+    display: block;
+  }
+  .about-section p{
+    text-align: justify;
+  }
+  .com {
+      
+      margin-top:14px;
+      vertical-align: middle;
+      font-size: small;
+      width:190px;
+      height: 472px;
+      margin-left: 29px;
+      text-align: justify;
+      
+  }
+  .com img{
+    margin-right: 20px;
+    border-radius: 70px;
+    margin-bottom: 1px;
+    margin-top: 1px;
+  }
+ 
+  .help{
+      font-size: 90%;
+  }
+     
+     
+  .bottom_content {
+    width: 100%;
+  }
+}
+.fa {
+  padding: 20px;
+  font-size: 20px;
+  font-weight: 100;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  color:red;
+}
+
+.fa:hover{
+  opacity: 0.6;
+}
+
+
+.bottom_content_wrap{
+  color: red;
+  display: block;
+  height:5cm;
+ 
+}
+
+</style>
+<body>
+  <div class="about-section">
+    <h1>ABOUT US</h1>
+    <p>We believe fitness should be accessible to everyone, everywhere,
+      regardless of income level or access to a gym. 
+      Wellfit, India's largest chain of fitness centres that offers
+      energetic group workouts and multiple workout formats to choose from.
+      Every day with every client is an experience for us while 
+      bettering expectations has been our record of accomplishment.
+      Our objective does not end by giving you great body
+      but it continues until we create an impact on your mindset 
+      to give the best health benefits to your body. </p>
+           
+  </div>
+  <br>
+  
+  <div class="row">
+  <div class="column">
+  <div class="card">
+  <br>
+  <div class="container">
+  <p class="tit">OUR MISSION</p>
+  <p>The success of this venture depends on assessment, education and programs in a client friendly ecosystem. We wish to remove the stigma 
+  regarding fitness regime as a gruesome task and make it more fun filled.</p>
+  </div>
+  </div>
+  </div>
+  <div class="column">
+  <div class="card">
+  <br>
+  <div class="container">
+  <p class="tit">OUR VISSION</p>
+  <p>Our vision is to motivate, excite, assist and sustain our clients to improve their health and lead a happy life. 
+  We wish to be the leaders in achieving healthy patrons.</p><br>
+    </div>
+    </div>
+    </div>
+    
+    <div class="column">
+    <div class="card">
+    <br>
+    <div class="container">
+   <p class="tit"> OUR VALUES</p>
+  <p>Our sincere approach to design a customized solution. Our research on information that enhances our knowledge.
+    Our integrity in understanding the clients requisites.Our passion for excellence.</p> 
+    </div>
+      </div>
+    </div>
+  </div>
+<div class="us">
+<h2 style="color: white ;" >PEOPLE ABOUT OUR GYM
+</h2>
+<center>
+<div class="com">
+<h4 style="padding: 2px 5px; "> DETERMINED</h4>
+
+<p >
+<img src="images/person-1.jpg" width="140px" height="140px"  align="right">  
+Getting healthy isn't just 'making' myself go to the gym, 
+it began with a change of my mindset! I stopped trying to
+ look a certain way and just decided to move.
+  Get up and go for a walk outside at lunch, 
+  do push-ups and body weight squats at my desk,
+  never miss 3 days in a row of the gym, eat clean 80% 
+  of the week and eat anything I want the other 20% of the time. &nbsp; </p>
+
+</div>
+<div class="com" >
+  <h4 style="padding: 2px 5px ;  ">THE LIFE-CHANGER</h4>
+ 
+  <p>
+    <img src="images/person-2.jpg" width="140px" height="140px" align="right">
+ This journey changed the way I think about food and exercise. I also find myself with WAY more energy than I've ever had, with no signs of ever wanting to slow down! 
+Don't give up! STAY DETERMINED! Commit, then do it! It's a wonderful journey!</p>
+</div></center>
+</div>
+<div class="even" style="background-color: rgb(34, 34, 34);">
+<h1 style="margin-top: 70px;color: white;text-align: center;padding-top: 13px;">FAQ's </h1>
+
+    <h3 style="padding: 15px;color: white;text-align: center;">Advice and answers from our EXPERTS</h3>
+
+<div class="help">
+    <ul>
+<li><h4>Request a refund from Wellfit?</h4></li>
+<p> 14-day Money Back Guarantee: You can receive a refund up to 14 days after you sign up.
+</p>
+</ul>
+</div>
+<div class="help">
+    <ul>
+<li><h4>Do you offer student, senior, or military discounts?</h4></li>
+<p>We do! Our community is our priority and we are happy to offer student, senior and military discounts as well as insurance discounts. However, it is up to each location to opt-in to offer the discount. It’s always best to check
+    with your local club directly to learn what discounts are available near you</p>
+</ul>
+</div>
+<div class="help">
+<ul>
+<li><h4>Does Wellfit have free Wifi?</h4></li>
+<p>While many Wellfit locations offer Wifi in their club, it is up to the owner to make it available to members. Don’t hesitate to ask your local 
+club if you do not find the login information readily posted.</p> </ul>
+</div>
+<div class="help">
+<ul>
+<li><h4>I have billing errors or need to change account information. Who should I contact?</h4></li>
+<p> All billing inquiries are handled by your club, get in touch with them directly to address the concern.
+</p> </ul>
+</div>
+</div>
+<div id="box">
+<div class="reaction-picker">
+<h4>Did this answer your question?</h4> </div>
+
+<div class="intercom-reaction">
+  
+  <button class="reaction"  onclick="myFunction()">
+    
+     <span data-emoji="disappointed" title="Disappointed" >&#128524;</span>
+  </button>
+  <button class="reaction"  onclick="myFunction()">
+    <span data-emoji="neutral_face" title="Neutral face">&#128528;</span>
+  </button>
+  <button class="reaction" onclick="myFunction()">
+    <span data-emoji="smiley" title="Smiley">&#128512;</span>
+  </button>
+
+</div>
+</div>
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+document.getElementById("demo").innerHTML = "THANK YOU FOR YOUR RESPONSE!!!";
+}
+</script>
+
+
+  
+  <div class="title">
+    <div style="float: right;"><a href="index.html" style="border: none; padding:0; margin:0;" id="logo"><svg width="260px" id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 210.3 63.56"><defs><style>.cls-1{fill:url(#linear-gradient);}.cls-2,.cls-3{font-size:55.2px;font-family:Broadway;}.cls-2{fill:#a9a9ff;}.cls-3{fill:#f9f9f9;letter-spacing:0.02em;}.cls-4{fill:#fcfbfa;}.cls-5{fill:#fff8f3;}</style><linearGradient id="linear-gradient" x1="132.31" y1="140.35" x2="342.61" y2="140.35" gradientUnits="userSpaceOnUse"><stop offset="0.02" stop-color="#540055" stop-opacity="0.9"/><stop offset="0.27" stop-color="#7f1616"/><stop offset="0.4" stop-color="#881414"/><stop offset="0.62" stop-color="#a20e0e"/><stop offset="0.89" stop-color="#cb0404"/><stop offset="1" stop-color="#d00"/></linearGradient></defs><title>logo4</title><path class="cls-1" d="M132.31,110.37a5.53,5.53,0,0,1,3-.84H337.68c2.72,0,4.93,1.86,4.93,4.15V167c0,2.29-2.21,4.15-4.93,4.15H173.77" transform="translate(-132.31 -109.53)"/><text x="-132.31" y="-109.53"/><text class="cls-2" transform="translate(30.53 49.86) scale(0.65 1)">WELLFIT</text><text class="cls-3" transform="translate(28.18 48) scale(0.65 1)">WELLFIT</text><path class="cls-4" d="M332.09,113.21h-.71v-1h2.1v1h-.71V119h-.68Z" transform="translate(-132.31 -109.53)"/><path class="cls-4" d="M336.68,116.49c0-1.15,0-2.58,0-3.35h0c-.1,1.17-.34,3.9-.53,5.86h-.64c-.14-1.76-.39-4.64-.49-5.87h0c0,.79,0,2.31,0,3.47V119h-.62v-6.75h1c.17,1.71.34,3.64.4,4.58h0c.07-1,.31-3,.49-4.58h1V119h-.64Z" transform="translate(-132.31 -109.53)"/><path class="cls-5" d="M238.1,161.46v7.12H237v-4.8l-.42,4.8h-.75l-.44-4.69v4.69h-1.05v-7.12h1.56c0,.43.09.94.14,1.52l.17,1.81.28-3.33Z" transform="translate(-132.31 -109.53)"/><path class="cls-5" d="M240.76,165h-1.09v-.39a4.07,4.07,0,0,1,.1-1.05,1.47,1.47,0,0,1,.41-.65,1.33,1.33,0,0,1,1.68,0,1.35,1.35,0,0,1,.36.78,18.86,18.86,0,0,1,.06,1.91v2.93h-1.13v-.52a1.17,1.17,0,0,1-.27.47.57.57,0,0,1-.4.15.75.75,0,0,1-.56-.26,1.72,1.72,0,0,1-.25-1.14v-.48a2,2,0,0,1,.14-.89,1.87,1.87,0,0,1,.66-.56c.38-.22.59-.38.61-.46a1.69,1.69,0,0,0,0-.48,2.57,2.57,0,0,0,0-.6c0-.09-.08-.14-.15-.14a.13.13,0,0,0-.14.12,3.5,3.5,0,0,0,0,.61Zm.36.8a1.28,1.28,0,0,0-.32.52,3.17,3.17,0,0,0,0,.61,2.37,2.37,0,0,0,0,.58.14.14,0,0,0,.15.13.13.13,0,0,0,.14-.1,2.76,2.76,0,0,0,0-.54Z" transform="translate(-132.31 -109.53)"/><path class="cls-5" d="M246.35,162.75l-.47,2.32.61,3.51h-1.12L245,166v2.54h-1.16v-7.12H245v3l.36-1.7Z" transform="translate(-132.31 -109.53)"/><path class="cls-5" d="M249,161.46v.93h-1.19v-.93Zm0,1.29v5.83h-1.19v-5.83Z" transform="translate(-132.31 -109.53)"/><path class="cls-5" d="M251.79,162.75l0,.54a1.33,1.33,0,0,1,.31-.49.65.65,0,0,1,.42-.16.61.61,0,0,1,.49.22,1.12,1.12,0,0,1,.24.54,6.84,6.84,0,0,1,.06,1.09v4.09h-1.16v-4a4.8,4.8,0,0,0,0-.73c0-.09-.06-.14-.14-.14s-.14.06-.16.16a6.07,6.07,0,0,0,0,.81v3.94h-1.16v-5.83Z" transform="translate(-132.31 -109.53)"/><path class="cls-5" d="M257.49,162.75v4.49c0,.6,0,1,0,1.17a1.53,1.53,0,0,1-.19.57,1.17,1.17,0,0,1-.46.45,1.67,1.67,0,0,1-.75.15,1.32,1.32,0,0,1-.89-.28,1.52,1.52,0,0,1-.35-1.13H256c0,.25.06.38.18.38a.17.17,0,0,0,.18-.12,2.24,2.24,0,0,0,0-.49v-.44a1.33,1.33,0,0,1-.32.31.62.62,0,0,1-.34.11.73.73,0,0,1-.52-.2,1,1,0,0,1-.27-.51,4,4,0,0,1-.08-.89V164.2A2.65,2.65,0,0,1,255,163a.63.63,0,0,1,.59-.37.65.65,0,0,1,.4.14,1.27,1.27,0,0,1,.32.41l.08-.44Zm-1.16,1.54a2.66,2.66,0,0,0,0-.51.14.14,0,0,0-.14-.11c-.06,0-.11.05-.14.13a2.31,2.31,0,0,0,0,.49v2a2.59,2.59,0,0,0,0,.51.14.14,0,0,0,.13.12c.08,0,.13,0,.15-.14a2.88,2.88,0,0,0,0-.64Z" transform="translate(-132.31 -109.53)"/><path class="cls-5" d="M261.32,161.46h1.21a1.91,1.91,0,0,1,.76.12.86.86,0,0,1,.4.35,1.43,1.43,0,0,1,.18.54,7.54,7.54,0,0,1,.05,1v.62a3.93,3.93,0,0,1-.09,1,.9.9,0,0,1-.34.48,1.13,1.13,0,0,1-.64.16h-.33v2.87h-1.2Zm1.2,1.22v1.81h.09a.23.23,0,0,0,.23-.13,1.19,1.19,0,0,0,.07-.52v-.58a1,1,0,0,0-.08-.48A.36.36,0,0,0,262.52,162.68Z" transform="translate(-132.31 -109.53)"/><path class="cls-5" d="M268,165.77h-1.5V167a2.66,2.66,0,0,0,0,.51.16.16,0,0,0,.15.11c.09,0,.14-.05.17-.15a2.41,2.41,0,0,0,.05-.59v-.77H268v.44a5.71,5.71,0,0,1,0,.83,2.16,2.16,0,0,1-.21.62,1.19,1.19,0,0,1-.41.49,1.14,1.14,0,0,1-.63.16,1.28,1.28,0,0,1-.65-.16,1.21,1.21,0,0,1-.43-.44,1.89,1.89,0,0,1-.22-.63,6.17,6.17,0,0,1-.06-1v-1.7a4.37,4.37,0,0,1,.13-1.21,1.25,1.25,0,0,1,.45-.67,1.08,1.08,0,0,1,.7-.24,1.14,1.14,0,0,1,.8.29,1.46,1.46,0,0,1,.45.75A5.45,5.45,0,0,1,268,165Zm-1.16-1v-.43a3,3,0,0,0,0-.58c0-.09-.06-.14-.13-.14a.13.13,0,0,0-.14.12,3.28,3.28,0,0,0,0,.6v.43Z" transform="translate(-132.31 -109.53)"/><path class="cls-5" d="M272.2,164.8v1.42a10.35,10.35,0,0,1-.05,1.16,2.26,2.26,0,0,1-.22.68,1.12,1.12,0,0,1-.44.47,1.23,1.23,0,0,1-.61.15,1.45,1.45,0,0,1-.65-.13.86.86,0,0,1-.41-.39,1.8,1.8,0,0,1-.21-.63,6.19,6.19,0,0,1-.07-1.11v-1.5a5.28,5.28,0,0,1,.12-1.27,1.39,1.39,0,0,1,.41-.73,1.05,1.05,0,0,1,.76-.28,1.2,1.2,0,0,1,1.1.64,2.19,2.19,0,0,1,.21.59A5.28,5.28,0,0,1,272.2,164.8Zm-1.16-.44a3.17,3.17,0,0,0,0-.57.14.14,0,0,0-.14-.12c-.07,0-.11,0-.13.12a2.22,2.22,0,0,0,0,.57V167a2.13,2.13,0,0,0,0,.54c0,.08.06.12.13.12s.11,0,.14-.11a2.48,2.48,0,0,0,0-.49Z" transform="translate(-132.31 -109.53)"/><path class="cls-5" d="M274.93,162.75l0,.51a1.34,1.34,0,0,1,.34-.46.6.6,0,0,1,.87.06,1,1,0,0,1,.25.52,7,7,0,0,1,.05,1v2.46a7.36,7.36,0,0,1-.06,1.13,1.06,1.06,0,0,1-.26.53.58.58,0,0,1-.46.2.6.6,0,0,1-.39-.15,1.23,1.23,0,0,1-.34-.46v1.34h-1.16v-6.66Zm.33,1.69a3.86,3.86,0,0,0,0-.65.13.13,0,0,0-.14-.12c-.08,0-.13.05-.15.14a3.8,3.8,0,0,0,0,.63v2.42a4.19,4.19,0,0,0,0,.66c0,.09.08.13.15.13a.13.13,0,0,0,.14-.12,3.37,3.37,0,0,0,0-.59Z" transform="translate(-132.31 -109.53)"/><path class="cls-5" d="M279.16,161.46v7.12H278v-7.12Z" transform="translate(-132.31 -109.53)"/><path class="cls-5" d="M283.38,165.77h-1.5V167a1.86,1.86,0,0,0,0,.51.14.14,0,0,0,.14.11.16.16,0,0,0,.17-.15,2.41,2.41,0,0,0,0-.59v-.77h1.1v.44a5.71,5.71,0,0,1-.05.83,2.16,2.16,0,0,1-.21.62,1.12,1.12,0,0,1-.41.49,1.14,1.14,0,0,1-.63.16,1.28,1.28,0,0,1-.65-.16,1.21,1.21,0,0,1-.43-.44,1.89,1.89,0,0,1-.22-.63,6.17,6.17,0,0,1-.06-1v-1.7a4.37,4.37,0,0,1,.13-1.21,1.25,1.25,0,0,1,.45-.67,1.1,1.1,0,0,1,.7-.24,1.14,1.14,0,0,1,.8.29,1.46,1.46,0,0,1,.45.75,5.45,5.45,0,0,1,.13,1.31Zm-1.16-1v-.43a2.31,2.31,0,0,0,0-.58c0-.09-.06-.14-.12-.14a.14.14,0,0,0-.15.12,3.28,3.28,0,0,0,0,.6v.43Z" transform="translate(-132.31 -109.53)"/><path class="cls-5" d="M287.17,161.46h2v1.43h-.83v1.35h.74v1.35h-.74v3h-1.21Z" transform="translate(-132.31 -109.53)"/><path class="cls-5" d="M291.84,161.46v.93h-1.19v-.93Zm0,1.29v5.83h-1.19v-5.83Z" transform="translate(-132.31 -109.53)"/><path class="cls-5" d="M294.65,162v.92H295v.92h-.31v3.12a2.22,2.22,0,0,0,0,.64c0,.05.13.07.32.07v.94h-.47a2.35,2.35,0,0,1-.56-.05.58.58,0,0,1-.3-.23.9.9,0,0,1-.16-.42q0-.24,0-1.11v-3h-.25v-.92h.25V162Z" transform="translate(-132.31 -109.53)"/><path class="cls-5" d="M301.19,163.62h-1.12v-.53a2,2,0,0,0,0-.47.15.15,0,0,0-.15-.1.17.17,0,0,0-.16.14,1,1,0,0,0-.06.41,1.82,1.82,0,0,0,.06.54,1.19,1.19,0,0,0,.35.43,4.38,4.38,0,0,1,1,1.2,4,4,0,0,1,.21,1.52,3.81,3.81,0,0,1-.12,1.12,1.13,1.13,0,0,1-.44.6,1.25,1.25,0,0,1-.78.25,1.27,1.27,0,0,1-.82-.28,1.31,1.31,0,0,1-.45-.72,5.49,5.49,0,0,1-.11-1.23V166h1.12v.87a1.73,1.73,0,0,0,.05.51.16.16,0,0,0,.17.11.17.17,0,0,0,.17-.14,1.19,1.19,0,0,0,.06-.43,1.84,1.84,0,0,0-.11-.82,3.66,3.66,0,0,0-.56-.65,6.28,6.28,0,0,1-.6-.66,1.68,1.68,0,0,1-.24-.57,4,4,0,0,1-.1-.94,3.79,3.79,0,0,1,.14-1.19,1.2,1.2,0,0,1,.44-.59,1.26,1.26,0,0,1,.73-.21,1.3,1.3,0,0,1,.8.23,1.08,1.08,0,0,1,.44.58,4.77,4.77,0,0,1,.11,1.21Z" transform="translate(-132.31 -109.53)"/><path class="cls-5" d="M304,161.46v.93h-1.19v-.93Zm0,1.29v5.83h-1.19v-5.83Z" transform="translate(-132.31 -109.53)"/><path class="cls-5" d="M306.77,162.75l0,.54a1.21,1.21,0,0,1,.3-.49.69.69,0,0,1,.42-.16.6.6,0,0,1,.49.22,1,1,0,0,1,.25.54,8.82,8.82,0,0,1,.05,1.09v4.09H307.1v-4c0-.4,0-.65,0-.73s-.07-.14-.15-.14-.13.06-.15.16a6.07,6.07,0,0,0,0,.81v3.94h-1.16v-5.83Z" transform="translate(-132.31 -109.53)"/><path class="cls-5" d="M312.39,165H311.3v-.67a1.69,1.69,0,0,0,0-.48c0-.08-.07-.13-.13-.13a.14.14,0,0,0-.14.11,2.53,2.53,0,0,0,0,.5V167a1.45,1.45,0,0,0,.05.47q0,.15.15.15c.08,0,.13-.05.16-.16a2.84,2.84,0,0,0,0-.62v-.69h1q0,.7,0,1a2.42,2.42,0,0,1-.19.71,1.31,1.31,0,0,1-.43.56,1.08,1.08,0,0,1-.64.18,1.13,1.13,0,0,1-.78-.25,1.4,1.4,0,0,1-.4-.72,5.58,5.58,0,0,1-.12-1.32v-1.66a4.59,4.59,0,0,1,.1-1.12,1.36,1.36,0,0,1,.41-.67,1.08,1.08,0,0,1,.77-.3,1.1,1.1,0,0,1,.78.3,1.49,1.49,0,0,1,.43.74A5.94,5.94,0,0,1,312.39,165Z" transform="translate(-132.31 -109.53)"/><path class="cls-5" d="M316.53,165.77H315V167a1.86,1.86,0,0,0,0,.51.14.14,0,0,0,.14.11.18.18,0,0,0,.18-.15,2.58,2.58,0,0,0,0-.59v-.77h1.1v.44a6,6,0,0,1,0,.83,2.16,2.16,0,0,1-.21.62,1.26,1.26,0,0,1-.41.49,1.14,1.14,0,0,1-.63.16,1.25,1.25,0,0,1-.65-.16,1.24,1.24,0,0,1-.44-.44,2.13,2.13,0,0,1-.21-.63,6.17,6.17,0,0,1-.06-1v-1.7a4.37,4.37,0,0,1,.13-1.21,1.3,1.3,0,0,1,.44-.67,1.13,1.13,0,0,1,.71-.24,1.16,1.16,0,0,1,.8.29,1.45,1.45,0,0,1,.44.75,5,5,0,0,1,.13,1.31Zm-1.16-1v-.43a3.31,3.31,0,0,0,0-.58c0-.09-.06-.14-.13-.14a.14.14,0,0,0-.15.12,3.28,3.28,0,0,0,0,.6v.43Z" transform="translate(-132.31 -109.53)"/><path class="cls-5" d="M322.79,167.37v1.21h-2.55v-1c.76-1.89,1.2-3.06,1.35-3.51a3.82,3.82,0,0,0,.21-1.05,1.12,1.12,0,0,0-.06-.43.22.22,0,0,0-.2-.15c-.09,0-.15.06-.2.16a2.16,2.16,0,0,0-.06.63v.68h-1v-.26a8,8,0,0,1,0-.95,2.2,2.2,0,0,1,.2-.68,1.15,1.15,0,0,1,.41-.5,1.08,1.08,0,0,1,.6-.17,1.19,1.19,0,0,1,1.05.52,2.39,2.39,0,0,1,.35,1.33,4.32,4.32,0,0,1-.2,1.29,30,30,0,0,1-1.17,2.9Z" transform="translate(-132.31 -109.53)"/><path class="cls-5" d="M327.14,163.87v2.38a10.3,10.3,0,0,1-.05,1.17,2,2,0,0,1-.24.69,1.18,1.18,0,0,1-.44.47,1.2,1.2,0,0,1-.57.14,1.44,1.44,0,0,1-.69-.15,1.09,1.09,0,0,1-.44-.46,2.59,2.59,0,0,1-.23-.66,6.73,6.73,0,0,1-.07-1.09v-2.49a7.36,7.36,0,0,1,.11-1.46,1.5,1.5,0,0,1,.44-.79,1.19,1.19,0,0,1,.8-.29,1.23,1.23,0,0,1,.68.2,1.34,1.34,0,0,1,.45.5,2.31,2.31,0,0,1,.2.66A8.61,8.61,0,0,1,327.14,163.87Zm-1.15-.6a4.16,4.16,0,0,0,0-.7.16.16,0,0,0-.17-.15.18.18,0,0,0-.17.15,3.39,3.39,0,0,0,0,.7v3.48a3.42,3.42,0,0,0,0,.74.16.16,0,0,0,.17.13.18.18,0,0,0,.17-.15,4,4,0,0,0,0-.67Z" transform="translate(-132.31 -109.53)"/><path class="cls-5" d="M331.23,167.37v1.21h-2.55v-1c.76-1.89,1.2-3.06,1.35-3.51a3.82,3.82,0,0,0,.21-1.05,1.12,1.12,0,0,0-.06-.43.22.22,0,0,0-.2-.15c-.09,0-.15.06-.2.16a2.16,2.16,0,0,0-.06.63v.68h-1v-.26a8,8,0,0,1,0-.95,2.2,2.2,0,0,1,.2-.68,1.15,1.15,0,0,1,.41-.5,1.08,1.08,0,0,1,.6-.17,1.19,1.19,0,0,1,1.05.52,2.39,2.39,0,0,1,.35,1.33,4.32,4.32,0,0,1-.2,1.29,30,30,0,0,1-1.17,2.9Z" transform="translate(-132.31 -109.53)"/><path class="cls-5" d="M335.58,163.87v2.38a10.3,10.3,0,0,1-.05,1.17,2,2,0,0,1-.24.69,1.18,1.18,0,0,1-.44.47,1.2,1.2,0,0,1-.57.14,1.47,1.47,0,0,1-.69-.15,1.09,1.09,0,0,1-.44-.46,2.59,2.59,0,0,1-.23-.66,6.73,6.73,0,0,1-.07-1.09v-2.49a7.36,7.36,0,0,1,.11-1.46,1.5,1.5,0,0,1,.44-.79,1.19,1.19,0,0,1,.8-.29,1.23,1.23,0,0,1,.68.2,1.34,1.34,0,0,1,.45.5,2,2,0,0,1,.2.66A8.61,8.61,0,0,1,335.58,163.87Zm-1.15-.6a4.16,4.16,0,0,0,0-.7.16.16,0,0,0-.17-.15.18.18,0,0,0-.17.15,3.39,3.39,0,0,0,0,.7v3.48a3.42,3.42,0,0,0,0,.74.16.16,0,0,0,.17.13.18.18,0,0,0,.17-.15,4,4,0,0,0,0-.67Z" transform="translate(-132.31 -109.53)"/></svg></a></div>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="google_maps_api.html">Find Centers</a></li>
+          <li><a href="gym_table.html">Time Table</a></li>
+          <li><a href="membership.html">Membership</a></li>
+          </ul>
+        </div>
+        <div class="bottom">
+          <div class="bottom_content_wrap">
+              <div class="bottom_content">
+                  <h3>About Us</h3>
+                  <p><a href="about.html" style="color:white;">Get To Know About Us!</a></p>
+                  <p><a href="gym_about.html" style="color:white;">About WELLFIT Classes</a></p>
+              </div>
+  
+              <div class="bottom_content">
+                  <h3>Policies, Terms & Conditions</h3>
+                  <p><a href="webpage-policy.html" style="color:white;">WebPage Policy</a></p>
+                  <p><a href="terms_and_conditions.html" style="color:white;">Terms & Conditions</a></p>
+                  <p><a href="privacy-policy.html" style="color:white;">Privacy Policy</a></p>
+              </div>
+  
+              <div class="bottom_content">
+                  <h3>Customer Services</h3>
+                  <p><a href="faqs.html" style="color:white;">FAQs</a></p>
+                  <p><a href="final.html" style="color:white;">Own a Franchise</a></p>
+              </div>
+          </div>
+          <div class="icons">
+              <a class="fa fa-facebook" href="https://www.fb.com"></a>
+              <a class="fa fa-instagram" href="https://www.instagram.com"></a>
+              <a class="fa fa-linkedin" href="https://www.linkedin.com"></a>
+          </div>
+      </div>
+  
+</body>
+</html>
