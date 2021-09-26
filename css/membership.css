@@ -1,0 +1,99 @@
+#logo:hover{
+    background-color: transparent;
+  }
+  
+body{
+    background-color: white;
+
+}
+.p{
+    text-align: center;
+    font-size: 20px;
+   
+}
+h2{
+    font-family:Tahoma;
+    position: relative;
+    font-weight: 300;
+    font-size:xx-large;
+    text-align: center;
+    color: black;
+    margin: 0 0 20px;
+    text-transform: uppercase;
+    display: block;
+   
+}
+.h3{
+    color: rgb(109, 108, 108); 
+    text-transform: uppercase;
+    text-align:left;
+}
+
+.button{
+  
+background-color: rgb(173, 3, 3);
+width:150px;
+border:none;
+font-weight: 200;
+border-radius: 5px;
+text-align-last: center;
+color:white;
+padding: 10px;
+align-content: center;
+font-size: 20px;
+}
+.button2{
+  
+  background-color:rgb(226, 223, 220);
+  width:150px;
+  font-weight: 200;
+  border-radius: 5px;
+  text-align-last: center;
+  color:rgb(173, 3, 3);
+  padding: 10px;
+  align-content: center;
+  font-size: 20px;
+ }
+.p{
+color:rgb(160, 156, 156); 
+font-family:Tahoma;
+width: 85%;
+font-size:17px;
+}
+th{
+   font-family:Tahoma;
+   background-color: rgb(173, 3, 3);
+   color:white;
+   font-size: 20px;
+}
+.grid-container {
+display: grid;
+grid-template-columns: auto auto auto;
+padding: 10px;
+border: none;
+}
+td{
+   font-family:Tahoma;
+   color:rgb(160, 156, 156);
+   font-size: 15px;
+}
+.grid-item {
+padding: 20px;
+font-size: 20px;
+text-align:center;
+border:none;
+}
+.grid-container p{
+text-align:left;
+font-size:18px;
+}
+ a{
+     color:rgb(173, 3, 3);
+ }
+ table{
+     border-color: rgb(207, 205, 205);
+ }
+ .strike{
+     text-decoration: line-through;
+ }
+ 
