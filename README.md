@@ -5,7 +5,7 @@ In this project, I learnt how to build a website for a gym management system. Th
  * homepage
  * timetables for the gym
  * nearest centres
- * build Google map API which provide routes
+ * Google map API which provide routes
  * image gallery
  * Price details
  * Franchise
